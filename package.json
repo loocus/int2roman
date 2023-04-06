@@ -4,10 +4,11 @@
   "description": "罗马数字与阿拉伯数字相互转换",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "build": "pnpm run build:prod && pnpm run build:dev",
-    "build:prod": "cross-env NODE_ENV=production node scripts/build.js && pnpm run gen-doc",
-    "build:dev": "cross-env NODE_ENV=devlopment node scripts/build.js && pnpm run gen-doc",
+    "build": "pnpm run build:prod && pnpm run build:dev && pnpm run gen-doc",
+    "build:prod": "cross-env NODE_ENV=production node scripts/build.js",
+    "build:dev": "cross-env NODE_ENV=devlopment node scripts/build.js",
     "gen-doc": "pnpm run gen-dts && api-documenter markdown --input-folder temp --output-folder docs",
     "gen-dts": "node scripts/gen-dts.js",
     "test": "cross-env NODE_ENV=devlopment jest src/__tests__ --detectOpenHandles"
@@ -28,6 +29,7 @@
   "homepage": "https://github.com/loocus/int2roman",
   "author": "",
   "license": "ISC",
+  "sideEffects": false,
   "devDependencies": {
     "@microsoft/api-documenter": "^7.21.7",
     "@microsoft/api-extractor": "^7.34.4",
