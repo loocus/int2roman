@@ -24,6 +24,30 @@ export const isInt = (num: unknown) => num !== 0 && Number.isFinite(num) && /^\d
  * 将有效整型数字转为罗马数字
  * @param val 整型数字
  * @returns 罗马数字
+ *
+ * @example
+ * ```ts
+ * romanToInt(1900);
+ * 'MCM'
+ *
+ * ```
+ * @example
+ * ```ts
+ * romanToInt(1);
+ * 'I'
+ * ```
+ *
+ * @example
+ * ```ts
+ * romanToInt(3);
+ * 'III'
+ * ```
+ *
+ * @example
+ * ```ts
+ * romanToInt(9999);
+ * 'MMMMMMMMMCMXCIX'
+ * ```
  */
 export const intToRoman = (val: number) => {
   if (!isInt(val)) throw new Error(`Invalid integer number ${val}`);

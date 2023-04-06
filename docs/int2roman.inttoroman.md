@@ -11,3 +11,37 @@
 ```typescript
 intToRoman: (val: number) => string
 ```
+
+## Example 1
+
+
+```ts
+romanToInt(1900);
+'MCM'
+
+```
+
+## Example 2
+
+
+```ts
+romanToInt(1);
+'I'
+```
+
+## Example 3
+
+
+```ts
+romanToInt(3);
+'III'
+```
+
+## Example 4
+
+
+```ts
+romanToInt(9999);
+'MMMMMMMMMCMXCIX'
+```
+
