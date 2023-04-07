@@ -29,7 +29,7 @@
   ],
   "homepage": "https://github.com/loocus/int2roman",
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "sideEffects": false,
   "devDependencies": {
     "@microsoft/api-documenter": "^7.21.7",
