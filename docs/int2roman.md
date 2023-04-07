@@ -8,8 +8,8 @@
 
 |  Variable | Description |
 |  --- | --- |
-|  [intToRoman](./int2roman.inttoroman.md) | 将有效整型数字转为罗马数字 |
-|  [isInt](./int2roman.isint.md) | 参数是否是有效整型（不包括 0 和 Infinity） |
+|  [intToRoman](./int2roman.inttoroman.md) | Convert valid integer numbers to Roman numerals |
+|  [isInt](./int2roman.isint.md) | Is the parameter a valid integer (excluding 0 and Infinity) |
 |  [isRoman](./int2roman.isroman.md) | 参数是否是罗马字符串 |
 |  [romanToInt](./int2roman.romantoint.md) | 将有效罗马数字转为整型数字 |
 

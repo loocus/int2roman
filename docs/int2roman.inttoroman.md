@@ -4,7 +4,7 @@
 
 ## intToRoman variable
 
-将有效整型数字转为罗马数字
+Convert valid integer numbers to Roman numerals
 
 **Signature:**
 

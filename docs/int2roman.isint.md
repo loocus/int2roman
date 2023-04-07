@@ -4,7 +4,7 @@
 
 ## isInt variable
 
-参数是否是有效整型（不包括 0 和 Infinity）
+Is the parameter a valid integer (excluding 0 and Infinity)
 
 **Signature:**
 

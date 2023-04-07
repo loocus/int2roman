@@ -1,7 +1,7 @@
 {
   "name": "int2roman",
-  "version": "1.0.0",
-  "description": "罗马数字与阿拉伯数字相互转换",
+  "version": "1.0.1",
+  "description": "Conversion between Roman numerals and Arabic numerals",
   "main": "dist/index.cjs",
   "module": "dist/index.mjs",
   "types": "dist/index.d.ts",
@@ -23,8 +23,9 @@
     "commonjs"
   ],
   "files": [
-    "./docs",
-    "./dist"
+    "docs",
+    "dist",
+    "pnpm-lock.yaml"
   ],
   "homepage": "https://github.com/loocus/int2roman",
   "author": "",
