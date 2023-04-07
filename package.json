@@ -23,7 +23,6 @@
     "commonjs"
   ],
   "files": [
-    "docs",
     "dist",
     "pnpm-lock.yaml"
   ],

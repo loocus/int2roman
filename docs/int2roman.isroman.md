@@ -4,7 +4,7 @@
 
 ## isRoman variable
 
-参数是否是罗马字符串
+Is the parameter a Roman string
 
 **Signature:**
 

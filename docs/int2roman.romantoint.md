@@ -4,7 +4,7 @@
 
 ## romanToInt variable
 
-将有效罗马数字转为整型数字
+Convert a valid Roman numerals to an integer
 
 **Signature:**
 

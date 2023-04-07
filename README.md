@@ -1,6 +1,6 @@
 # int2roman
 
-一个用于转换阿拉伯数字和罗马数字的工具包，进入 [docs](./docs/int2roman.md) 文件下查看完整类型定义
+一个用于转换阿拉伯数字和罗马数字的工具包，进入 [docs](https://github.com/loocus/int2roman/tree/main/docs) 文件下查看完整类型定义
 
 ## 安装
 

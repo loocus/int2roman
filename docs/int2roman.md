@@ -10,6 +10,6 @@
 |  --- | --- |
 |  [intToRoman](./int2roman.inttoroman.md) | Convert valid integer numbers to Roman numerals |
 |  [isInt](./int2roman.isint.md) | Is the parameter a valid integer (excluding 0 and Infinity) |
-|  [isRoman](./int2roman.isroman.md) | 参数是否是罗马字符串 |
-|  [romanToInt](./int2roman.romantoint.md) | 将有效罗马数字转为整型数字 |
+|  [isRoman](./int2roman.isroman.md) | Is the parameter a Roman string |
+|  [romanToInt](./int2roman.romantoint.md) | Convert a valid Roman numerals to an integer |
 
