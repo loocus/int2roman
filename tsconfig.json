@@ -17,5 +17,5 @@
     "types": ["node", "jest"]
   },
   "exclude": ["*/__test__/*"],
-  "include": ["src/*"]
+  "include": ["src"]
 }
